@@ -22,7 +22,7 @@ if($c==''){
 // Writing inserted values
 $output = 'a = ' . $a . '<br> b = ' . $b . '<br> c = ' . $c . '<br>';
 $d = $b * $b - 4 * $a * $c;
-$output .= 'D = '. $d . '<br>';
+$output .= 'D = ' . $d . '<br>';
 
 // Calculate roots
 if ($d < 0) {
